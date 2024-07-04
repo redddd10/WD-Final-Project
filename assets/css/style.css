@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: "Lilita One", sans-serif;
+    font-size: 10vh;
+}
+
+h2{
+    font-family: "Concert One", sans-serif;
+    font-size: 5vh;
+}
+
+p{
+    font-family: "Comfortaa", sans-serif;
+    font-size: 2vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.header{
+    background-color: rgba(5, 69, 152);
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header .left h2{
+    color: rgb(215, 224, 86);
+}
+
+.landing{
+    width: 100vh;
+    display: flex;
+    padding: 10vh;
+}
+
+.maincontent{
+    text-align: center;
+    align-content: center;
+    border-top: solid 2vh rgb(215, 224, 86);
+    border-bottom: solid 2vh rgb(215, 224, 86);
+    border-radius: 75px;
+    height: 40vh;
+    width: 50vw;
+    background-color: rgba(5, 69, 152);
+    color: white;
+    animation: gelatine 4s infinite;
+    rotate: -5deg;
+}
+
+
+@keyframes gelatine {
+    from, to { transform: scale(1, 1); }
+    25% { transform: scale(0.9, 1.1); }
+    50% { transform: scale(1.1, 0.9); }
+    75% { transform: scale(0.95, 1.05); }
+}
