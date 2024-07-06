@@ -30,6 +30,24 @@ body{
     overflow-x: hidden;
 }
 
+body {
+    transition: filter 0.5s;
+    filter: grayscale(0%);
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+.bg{
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    overflow-y: hidden;
+    height: 100vh;
+    width: 100vw;
+    filter: blur(10px);
+}
+
 .header{
     background-color: rgba(5, 69, 152);
     height: 12vh;
@@ -85,9 +103,8 @@ body{
 .landing{
     width: 100vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 10vh;
     height: 65vh;
 }
 
