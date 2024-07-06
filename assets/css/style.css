@@ -23,7 +23,7 @@ p{
     font-size: 2vh;
 }
 
-body {
+body{
     display: flex;
     flex-direction: column;
     width: 100vw;
@@ -32,36 +32,140 @@ body {
 
 .header{
     background-color: rgba(5, 69, 152);
-    height: 10vh;
+    height: 12vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: sticky;
+    border-bottom: solid 1vh rgb(215, 224, 86);
+}
+
+.footer{
+    background-color: rgba(5, 69, 152);
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    border-top: solid 1vh rgb(215, 224, 86);
 }
 
 .header .left h2{
     color: rgb(215, 224, 86);
 }
 
-.landing{
-    width: 100vh;
-    display: flex;
-    padding: 10vh;
+.footer h2{
+    color: white;
 }
 
-.maincontent{
+.help p{
+    color: rgb(215, 224, 86);
+}
+
+.help{
+    display: flex;
+    gap: 4vh;
+}
+
+.newsletter{
+    display: flex;
+    gap: 2vh;
+}
+
+.footer button{
+    padding: 1vh;
+    font-family: "Concert One", sans-serif;
+    font-size: 2.5vh;
+    border: 1vh dotted rgb(215, 224, 86);
+    background-color: transparent;
+    border-radius: 25px;
+    color: white;
+}
+
+.landing{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10vh;
+    height: 65vh;
+}
+
+.landingbottom{
+    width: 100vw;
+    height: 11vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.empty{
+    width: 20vw;
+}
+
+.typedout{
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 2s steps(20) infinite;
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+}
+
+.leftcontent{
+    transform: translate(0, 7vh);
+    text-align: center;
+    align-content: center;
+    border-top: solid 2vh rgb(215, 224, 86);
+    border-bottom: solid 2vh rgb(215, 224, 86);
+    border-radius: 75px;
+    height: 25vh;
+    width: 25vw;
+    background-color: rgba(5, 69, 152);
+    color: white;
+    rotate: -5deg;
+}
+
+.midcontent{
     text-align: center;
     align-content: center;
     border-top: solid 2vh rgb(215, 224, 86);
     border-bottom: solid 2vh rgb(215, 224, 86);
     border-radius: 75px;
     height: 40vh;
-    width: 50vw;
+    width: 30vw;
     background-color: rgba(5, 69, 152);
     color: white;
-    animation: gelatine 4s infinite;
-    rotate: -5deg;
 }
 
+.rightcontent{
+    transform: translate(0, 9vh);
+    text-align: center;
+    align-content: center;
+    border-top: solid 2vh rgb(215, 224, 86);
+    border-bottom: solid 2vh rgb(215, 224, 86);
+    border-radius: 75px;
+    height: 30vh;
+    width: 30vw;
+    background-color: rgba(5, 69, 152);
+    color: white;
+    rotate: 5deg;
+}
+
+
+.center button{
+    padding: 1vh;
+    font-family: "Concert One", sans-serif;
+    font-size: 2.5vh;
+    border: 1vh dotted rgb(215, 224, 86);
+    background-color: transparent;
+    border-radius: 25px;
+    color: white;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
 
 @keyframes gelatine {
     from, to { transform: scale(1, 1); }
