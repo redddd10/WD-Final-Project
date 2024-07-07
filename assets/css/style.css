@@ -38,6 +38,7 @@ body {
 .grayscale {
     filter: grayscale(100%);
 }
+
 .bg{
     position: absolute;
     object-fit: cover;
