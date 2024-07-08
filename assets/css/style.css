@@ -59,6 +59,12 @@ body {
     border-bottom: solid 1vh rgb(215, 224, 86);
 }
 
+
+.header .left h2{
+    color: rgb(215, 224, 86);
+}
+
+
 .footer{
     background-color: rgba(5, 69, 152);
     height: 12vh;
@@ -69,9 +75,11 @@ body {
     border-top: solid 1vh rgb(215, 224, 86);
 }
 
-.header .left h2{
-    color: rgb(215, 224, 86);
+.light{
+    height: 10vh;
+    filter: saturate(500%);
 }
+
 
 .footer h2{
     color: white;
