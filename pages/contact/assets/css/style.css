@@ -110,7 +110,7 @@ body{
 
 .bg{
     height: 100vh;
-    width: 60vw;
+    width: 100%;
     position: absolute;
     object-fit: cover;
     z-index: -1;
@@ -119,6 +119,134 @@ body{
 }
 
 .landing{
+    width: 100vw;
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
+    border-bottom: solid 1vh rgba(5, 69, 152);
+}
+
+.lleft{
+    width: 60%;
+}
+
+.lright{
+    width: 40%;
+}
+
+.lright h2{
+    font-size: 20vh;
+}
+
+.middle{
+    height: 30vh;
+    padding: 10vh;
+}
+
+.how{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: dashed 1vh rgb(215, 224, 86);
+    padding-bottom: 5vh;
+}
+
+.options{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+    background-color: rgb(215, 224, 86, 0.4);
+}
+
+.options h2{
+    font-size: 7vh;
+    text-align: end;
+    margin-right: 2vh;
+}
+
+.soc{
+    width: 25vw;
+    height: 80vh;
+    background-color: rgba(5, 69, 152);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.phoneandmail{
+    width: 50vw;
+    height: 80vh;
+    background-color: transparent;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10vh;
+}
+
+.phone{
+    width: 50vw;
+    height: 35vh;
+    background-color: rgb(215, 224, 86);
+    border-radius: 25px;
+}
+
+.email{
+    width: 50vw;
+    height: 35vh;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.soccontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.soccontent img{
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.pic{
+    margin-left: 5vh;
+    height: 20vh;
+}
+
+.pmcontent{
+    display: flex;
+}
+
+.paside{
+    display: flex;
+    align-items: center;
+    gap: 5vh;
+}
+
+.change h2{
+    font-size: 5vh;
+}
+
+.email .pmcontent{
+    gap: 5vh;
+}
+
+.change{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.soctext{
+    font-size: 3vh;
+    color: white;
+    text-decoration: none;
+    font-family: "Concert One", sans-serif;
 }
