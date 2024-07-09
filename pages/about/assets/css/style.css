@@ -159,21 +159,6 @@ body{
     text-align: justify;
 }
 
-.school{
-    padding: 2vh;
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(5, 69, 152, 0.8);
-    text-align: center;
-}
-
-.uni{
-    height: 50vh;
-}
-
 .moreinfo{
     gap: 2vh;
     display: flex;
@@ -207,4 +192,27 @@ body{
 
 .traits{
     height: 40vh;
+}
+
+.values{
+    padding: 2vh;
+    width: 30%;
+    background-color: rgba(5, 69, 152, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+}
+
+.values h2{
+    color: white;
+    text-align: center;
+}
+
+.values p{
+    text-align: center;
+}
+
+.myvalues{
+    border-bottom: dashed 1vh white;
 }
