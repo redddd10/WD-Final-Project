@@ -110,7 +110,7 @@ body{
 
 .bg{
     height: 100vh;
-    width: 60vw;
+    width: 100vw;
     position: absolute;
     object-fit: cover;
     z-index: -1;
@@ -120,5 +120,116 @@ body{
 
 .landing{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
 }
+
+.landing h1{
+    font-size: 15vh;
+    text-decoration: underline double 1vh rgba(5, 69, 152);
+}
+
+.bulbtip{
+    margin-bottom: 45vh;
+    margin-left: 25vw;
+    height: 50vh;
+    position: absolute;
+    z-index: -1;
+    overflow-x: hidden;
+}
+
+.tips{
+    border-top: dotted 2vh rgb(215, 224, 86);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.top{
+    height: 50vh;
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom{
+    height: 50vh;
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pin{
+    height: 10vh;
+}
+
+.tips p{
+    text-align: center;
+}
+
+.tone{
+    height: 35vh;
+    width: 16vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(215, 224, 86);
+    rotate: -2deg;
+}
+
+.ttwo{
+    height: 35vh;
+    width: 16vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(83, 213, 98);
+    rotate: 5deg;
+}
+
+.tthree{
+    height: 35vh;
+    width: 16vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 174, 33);
+    rotate: -10deg;
+}
+
+.tfour{
+    height: 35vh;
+    width: 16vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(107, 132, 215);
+    rotate: -4deg;
+}
+
+.tfive{
+    height: 35vh;
+    width: 16vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(217, 86, 224);
+    rotate: 12deg;
+}
+
+.tleft{
+    width: 70%;
+}
+
+.tright{
+    padding-top: 25vh;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
