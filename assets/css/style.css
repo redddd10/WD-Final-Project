@@ -148,7 +148,6 @@ body {
     width: 25vw;
     background-color: rgba(5, 69, 152);
     color: white;
-    rotate: -5deg;
 }
 
 .midcontent{
@@ -174,7 +173,6 @@ body {
     width: 30vw;
     background-color: rgba(5, 69, 152);
     color: white;
-    rotate: 5deg;
 }
 
 
