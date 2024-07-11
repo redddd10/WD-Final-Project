@@ -10,7 +10,7 @@
 
 h1{
     font-family: "Lilita One", sans-serif;
-    font-size: 10vh;
+    font-size: 15vh;
 }
 
 h2{
@@ -120,7 +120,24 @@ body{
 
 .landing{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2vh solid rgb(215, 224, 86);
     height: 100vh;
+}
+
+.computer{
+    position: absolute;
+    z-index: -1;
+    height: 90vh;
+    filter: grayscale(50%);
+    padding-right: 50vw;
+}
+
+.landing h1{
+    padding-left: 30vh;
+    backdrop-filter: blur(2px);
+    color: rgba(5, 69, 152);
 }
 
 .home{
@@ -130,4 +147,47 @@ body{
 .right{
     display: flex;
     align-items: center;
+}
+
+.resources{
+    width: 100vw;
+    height: 500vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: justify;
+    width: 40.5vw;
+}
+
+.content h2{
+    font-size: 12vh;
+}
+
+.visual{
+    width: 40.5vw;
+}
+
+.number{
+    width: 9vw;
+}
+
+.first{
+    padding: 2vh;
+    width: 90vw;
+    height: 60vh;
+    background-color: rgba(5, 69, 152, 0.7);
+    border-radius: 50px;
+    display: flex;
+}
+
+.ggif{
+    height: 50vh;
+    width: 40.5vw;
+
 }
