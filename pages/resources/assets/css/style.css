@@ -224,3 +224,7 @@ body{
     border-radius: 50px;
     display: flex;
 }
+
+.grayscale {
+    filter: grayscale(100%);
+}

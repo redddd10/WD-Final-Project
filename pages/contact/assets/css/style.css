@@ -18,6 +18,10 @@ h2{
     font-size: 5vh;
 }
 
+.grayscale {
+    filter: grayscale(100%);
+}
+
 p{
     font-family: "Comfortaa", sans-serif;
     font-size: 2vh;

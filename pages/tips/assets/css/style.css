@@ -241,3 +241,7 @@ body{
     display: flex;
     align-items: center;
 }
+
+.grayscale {
+    filter: grayscale(100%);
+}
