@@ -233,3 +233,11 @@ body{
     width: 30%;
 }
 
+.home{
+    height: 8vh;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}

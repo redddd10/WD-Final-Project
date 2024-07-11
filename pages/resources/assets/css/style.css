@@ -122,3 +122,12 @@ body{
     display: flex;
     height: 100vh;
 }
+
+.home{
+    height: 8vh;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}

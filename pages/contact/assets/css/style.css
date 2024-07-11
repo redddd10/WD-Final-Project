@@ -128,7 +128,15 @@ body{
 }
 
 .lleft{
-    width: 60%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2vw;
+}
+
+.lleft img{
+    background-color: rgb(215, 224, 86);
+    border-radius: 50%;
 }
 
 .lright{
@@ -249,4 +257,13 @@ body{
     color: white;
     text-decoration: none;
     font-family: "Concert One", sans-serif;
+}
+
+.home{
+    height: 8vh;
+}
+
+.right{
+    display: flex;
+    align-items: center;
 }

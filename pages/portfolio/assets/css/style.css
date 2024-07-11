@@ -252,5 +252,13 @@ body{
     margin-right: 30vw;
 }
 
+.home{
+    height: 8vh;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
 
 

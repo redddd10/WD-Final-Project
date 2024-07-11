@@ -175,7 +175,6 @@ body {
     color: white;
 }
 
-
 .center button{
     padding: 1vh;
     font-family: "Concert One", sans-serif;
@@ -184,6 +183,15 @@ body {
     background-color: transparent;
     border-radius: 25px;
     color: white;
+}
+
+.home{
+    height: 8vh;
+}
+
+.right{
+    display: flex;
+    align-items: center;
 }
 
 @keyframes typing {
