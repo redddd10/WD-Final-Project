@@ -118,7 +118,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 76vh;
+    height: 89vh;
 }
 
 .landingbottom{
@@ -272,6 +272,14 @@ body {
 
 .rightcontent:hover{
     animation: gelatine 3s infinite;
+}
+
+.numbers h2{
+    color: black;
+}
+
+.numbers a{
+    text-decoration: none;
 }
 
 .numbers h2:hover{
