@@ -271,3 +271,56 @@ body{
     display: flex;
     align-items: center;
 }
+
+.help p:hover{
+    color: white;
+}
+
+.newsletter button:hover{
+    transform: scale(1.3);
+    cursor: grab;
+}
+
+.center button:hover{
+    transform: scale(1.3);
+    cursor: grab;
+}
+
+.wakarepo button:hover{
+    transform: scale(1.3);
+    cursor: grab;
+}
+
+
+.lleft img{
+    animation: spin 5s infinite linear;
+}
+  
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.middle:hover{
+    background-color: rgba(5, 69, 152);
+}
+
+.soc img:hover {
+    animation: hithere 1s ease infinite;
+}
+
+.paside img:hover {
+    animation: hithere 1s ease infinite;
+}
+
+.options h2:hover{
+    transform: scale(1.2);
+}
+
+@keyframes hithere {
+    30% { transform: scale(1.2); }
+    40%, 60% { transform: rotate(-20deg) scale(1.2); }
+    50% { transform: rotate(20deg) scale(1.2); }
+    70% { transform: rotate(0deg) scale(1.2); }
+    100% { transform: scale(1); }
+}
