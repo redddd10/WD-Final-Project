@@ -102,7 +102,10 @@ WD-ProjectName
 
 ## Resources
 
-<!-- TODO: Add References -->
+
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Google Fonts | Source of fonts used. | https://fonts.google.com/?preview.layout=grid |
+| CODEPEN.IO | Source for some animations used. | https://codepen.io/nelledejones/pen/gOOPWrK |
+| Pinterest| Source of ideas for layout. | https://ph.pinterest.com/ |
+| Vecteezy| Source of some PNG's used. | https://www.vecteezy.com/free-png/computer |
